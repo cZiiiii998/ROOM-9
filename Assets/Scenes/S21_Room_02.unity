@@ -4202,7 +4202,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1500188356044583178, guid: 012454d441552ec40af3bb6b41b23836, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3674518800652931224, guid: 012454d441552ec40af3bb6b41b23836, type: 3}
       propertyPath: m_LocalScale.y
@@ -4286,7 +4286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6834166756928205837, guid: 012454d441552ec40af3bb6b41b23836, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6834166756928205837, guid: 012454d441552ec40af3bb6b41b23836, type: 3}
       propertyPath: m_WasSpriteAssigned
