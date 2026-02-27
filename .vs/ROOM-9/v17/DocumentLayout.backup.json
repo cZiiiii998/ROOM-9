@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "E:\\unity\\ROOM-9\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|e:\\unity\\room-9\\assets\\scripts\\rooms\\room6\\movingobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rooms\\room6\\movingobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|e:\\unity\\room-9\\assets\\scripts\\rooms\\room5\\darknessfadein.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rooms\\room5\\darknessfadein.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|e:\\unity\\room-9\\assets\\scripts\\rooms\\room4\\fakedoorteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|E:\\unity\\ROOM-9\\assets\\scripts\\rooms\\room4\\fakedoorteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rooms\\room4\\fakedoorteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -83,6 +87,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MovingObstacle.cs",
+              "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room6\\MovingObstacle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Room6\\MovingObstacle.cs",
+              "ToolTip": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room6\\MovingObstacle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Rooms\\Room6\\MovingObstacle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T15:36:53.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DarknessFadeIn.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room5\\DarknessFadeIn.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Room5\\DarknessFadeIn.cs",
@@ -94,12 +115,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FakeDoorTeleport.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room4\\FakeDoorTeleport.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Room4\\FakeDoorTeleport.cs",
@@ -107,12 +124,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Rooms\\Room4\\FakeDoorTeleport.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T19:20:51.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T19:20:51.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RotateInPlace2D.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room3\\RotateInPlace2D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Room3\\RotateInPlace2D.cs",
@@ -124,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LaserHit.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room3\\LaserHit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Room3\\LaserHit.cs",
@@ -136,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Room03Controller.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room03Controller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Room03Controller.cs",
@@ -147,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Room02Controller.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room02Controller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Room02Controller.cs",
@@ -159,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Room02Tile.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room02Tile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Room02Tile.cs",
@@ -171,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "RoomGate.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Core\\RoomGate.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\RoomGate.cs",
@@ -183,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Room01Controller.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Core\\Room01Controller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Room01Controller.cs",
@@ -195,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ColorPad.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Interact\\ColorPad.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interact\\ColorPad.cs",
@@ -207,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CameraFollow2D.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Core\\CameraFollow2D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\CameraFollow2D.cs",
@@ -219,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "KeyPickup.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Interact\\KeyPickup.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interact\\KeyPickup.cs",
@@ -231,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "DoorToScene.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Interact\\DoorToScene.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interact\\DoorToScene.cs",
@@ -243,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ExitDoor.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Interact\\ExitDoor.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interact\\ExitDoor.cs",
@@ -255,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "BootLoader.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Core\\BootLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\BootLoader.cs",
@@ -267,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "GameState.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Core\\GameState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\GameState.cs",
@@ -279,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PlayerMove2D.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Player\\PlayerMove2D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMove2D.cs",
