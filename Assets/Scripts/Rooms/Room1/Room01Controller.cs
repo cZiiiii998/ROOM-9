@@ -19,6 +19,8 @@ public class Room01Controller : MonoBehaviour
     public Collider2D backDoorLockBlocker;
     public Collider2D backDoorTrigger;
 
+    public StoneGateWideMask gate;
+
     public Color red = new Color(1f, 0.2f, 0.2f, 1f);
     public Color yellow = new Color(1f, 0.9f, 0.2f, 1f);
     public Color blue = new Color(0.25f, 0.55f, 1f, 1f);
@@ -36,8 +38,11 @@ public class Room01Controller : MonoBehaviour
         if (backDoorLockBlocker != null) backDoorLockBlocker.enabled = true;
         if (backDoorTrigger != null) backDoorTrigger.enabled = false;
 
+        if (gate != null) gate.CloseInstant();
+
         SetLight(Color.white);
         SetPadsInactive();
+
         StartCoroutine(Loop());
     }
 
@@ -57,7 +62,8 @@ public class Room01Controller : MonoBehaviour
             accepting = true;
             inputIndex = 0;
 
-            while (accepting) yield return null;
+            while (accepting)
+                yield return null;
 
             if (!success)
             {
@@ -70,16 +76,30 @@ public class Room01Controller : MonoBehaviour
         SetPadsActive();
         SetLight(Color.white);
 
-        if (backDoorLockVisual != null) backDoorLockVisual.SetActive(false);
-        if (backDoorLockBlocker != null) backDoorLockBlocker.enabled = false;
-        if (backDoorTrigger != null) backDoorTrigger.enabled = true;
+        if (gate != null)
+            gate.Open();
 
-        if (keyToReveal != null) keyToReveal.SetActive(true);
+        if (backDoorLockVisual != null)
+            backDoorLockVisual.SetActive(false);
+
+        if (backDoorLockBlocker != null)
+            backDoorLockBlocker.enabled = false;
+
+        if (backDoorTrigger != null)
+            backDoorTrigger.enabled = true;
+
+        if (keyToReveal != null)
+            keyToReveal.SetActive(true);
+
+        DoorToScene door = FindObjectOfType<DoorToScene>();
+        if (door != null)
+            door.canUse = true;
     }
 
     void GenerateSequence()
     {
         sequence.Clear();
+
         for (int i = 0; i < flashCount; i++)
         {
             sequence.Add(Random.Range(0, 3));
@@ -92,6 +112,7 @@ public class Room01Controller : MonoBehaviour
         {
             SetLight(IndexToColor(sequence[i]));
             yield return new WaitForSeconds(flashOn);
+
             SetLight(Color.white);
             yield return new WaitForSeconds(flashOff);
         }
@@ -104,12 +125,15 @@ public class Room01Controller : MonoBehaviour
 
         if (sequence[inputIndex] != colorIndex)
         {
-            if (pad != null) pad.Flash(new Color(1f, 0.15f, 0.15f, 1f), 0.12f);
+            if (pad != null)
+                pad.Flash(new Color(1f, 0.15f, 0.15f, 1f), 0.12f);
+
             accepting = false;
             return;
         }
 
-        if (pad != null) pad.Flash(new Color(1f, 1f, 1f, 1f), 0.06f);
+        if (pad != null)
+            pad.Flash(new Color(1f, 1f, 1f, 1f), 0.06f);
 
         inputIndex++;
 
@@ -123,25 +147,30 @@ public class Room01Controller : MonoBehaviour
     void SetPadsInactive()
     {
         if (pads == null) return;
+
         for (int i = 0; i < pads.Length; i++)
         {
-            if (pads[i] != null) pads[i].SetPad(false, Color.black);
+            if (pads[i] != null)
+                pads[i].SetPad(false, Color.black);
         }
     }
 
     void SetPadsActive()
     {
         if (pads == null) return;
+
         for (int i = 0; i < pads.Length; i++)
         {
             if (pads[i] == null) continue;
+
             pads[i].SetPad(true, IndexToColor(pads[i].colorIndex));
         }
     }
 
     void SetLight(Color c)
     {
-        if (ceilingLight != null) ceilingLight.color = c;
+        if (ceilingLight != null)
+            ceilingLight.color = c;
     }
 
     Color IndexToColor(int idx)
