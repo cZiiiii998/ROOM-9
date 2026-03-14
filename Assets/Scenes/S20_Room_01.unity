@@ -526,7 +526,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.03283024, y: 0.061556876}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -537,7 +537,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.772829, y: 1.9438673}
   m_EdgeRadius: 0
 --- !u!212 &485612689
 SpriteRenderer:
@@ -801,7 +801,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.14012778, y: 0.00000023841858}
+  m_Offset: {x: 0.02522254, y: 0.14363247}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -812,7 +812,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.6824496, y: 3.05088}
+  m_Size: {x: 3.2556577, y: 1.8607858}
   m_EdgeRadius: 0
 --- !u!212 &580500891
 SpriteRenderer:
@@ -1571,7 +1571,7 @@ MonoBehaviour:
   backDoorLockVisual: {fileID: 0}
   backDoorLockBlocker: {fileID: 0}
   backDoorTrigger: {fileID: 1495935329}
-  gate: {fileID: 0}
+  gate: {fileID: 240582980}
   red: {r: 1, g: 0.2, b: 0.2, a: 1}
   yellow: {r: 1, g: 0.9, b: 0.2, a: 1}
   blue: {r: 0.25, g: 0.55, b: 1, a: 1}
@@ -2007,7 +2007,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.098490715, y: 0.3898582}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2018,7 +2018,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.9698105, y: 1.7797164}
   m_EdgeRadius: 0
 --- !u!212 &1800379319
 SpriteRenderer:
@@ -2240,7 +2240,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: ffdd707c1b703804182c71a99cfc50d4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2606,7 +2606,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: ffdd707c1b703804182c71a99cfc50d4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
