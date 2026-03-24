@@ -98,8 +98,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -108,14 +112,10 @@
               "RelativeDocumentMoniker": "Assets\\Animations\\PlayerController.cs",
               "ToolTip": "E:\\unity\\ROOM-9\\Assets\\Animations\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Animations\\PlayerController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAwwC0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-14T03:07:51.971Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
