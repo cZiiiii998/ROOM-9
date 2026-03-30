@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Scenes/S27_Room_08.unity
     guid: 359d6fe17590d784cbc12541eea14a18
   - enabled: 1
+    path: Assets/Scenes/S30_RewardRoom.unity
+    guid: 41b1c9073fd9d254aafed68ba0fdfee4
+  - enabled: 1
     path: Assets/Scenes/S99_End.unity
     guid: 1456d159a3233f24bbb2975642f56b95
   m_configObjects: {}

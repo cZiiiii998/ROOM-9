@@ -4,39 +4,49 @@ public class GameState : MonoBehaviour
 {
     public static GameState I;
 
+    public enum KeyType
+    {
+        None,
+        A,
+        B,
+        C
+    }
+
     public bool keyA;
     public bool keyB;
     public bool keyC;
 
+    public KeyType nextRewardKey = KeyType.None;
+
     void Awake()
     {
-        if (I != null)
+        if (I != null && I != this)
         {
             Destroy(gameObject);
             return;
         }
+
         I = this;
         DontDestroyOnLoad(gameObject);
     }
 
-    public int KeyCount()
+    public void GiveKey(KeyType type)
     {
-        int c = 0;
-        if (keyA) c++;
-        if (keyB) c++;
-        if (keyC) c++;
-        return c;
+        if (type == KeyType.A) keyA = true;
+        if (type == KeyType.B) keyB = true;
+        if (type == KeyType.C) keyC = true;
+    }
+
+    public bool HasKey(KeyType type)
+    {
+        if (type == KeyType.A) return keyA;
+        if (type == KeyType.B) return keyB;
+        if (type == KeyType.C) return keyC;
+        return false;
     }
 
     public bool HasAllKeys()
     {
         return keyA && keyB && keyC;
-    }
-
-    public void ResetKeys()
-    {
-        keyA = false;
-        keyB = false;
-        keyC = false;
     }
 }

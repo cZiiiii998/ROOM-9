@@ -956,10 +956,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door_BackToCorridor
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6088489024328940966, guid: 012454d441552ec40af3bb6b41b23836, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2080172270537863163, guid: 012454d441552ec40af3bb6b41b23836, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1860909856}
   m_SourcePrefab: {fileID: 100100000, guid: 012454d441552ec40af3bb6b41b23836, type: 3}
 --- !u!1 &450418778
 GameObject:
@@ -2287,7 +2291,6 @@ GameObject:
   - component: {fileID: 841259213}
   - component: {fileID: 841259212}
   - component: {fileID: 841259214}
-  - component: {fileID: 841259217}
   - component: {fileID: 841259216}
   - component: {fileID: 841259215}
   - component: {fileID: 841259218}
@@ -2448,18 +2451,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &841259217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 841259211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44a4ea555ed518546ab5a0ed40f946d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &841259218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2614,7 +2605,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 14fbec6b1833cd8468afd78d95a609b4, type: 3}
   m_Color: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}
   m_FlipX: 0
@@ -2843,7 +2834,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 14fbec6b1833cd8468afd78d95a609b4, type: 3}
   m_Color: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}
   m_FlipX: 0
@@ -4583,6 +4574,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1905362748}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1860909854 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2080172270537863163, guid: 012454d441552ec40af3bb6b41b23836, type: 3}
+  m_PrefabInstance: {fileID: 387060511}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1860909856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860909854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7efa89ab8c4c9a34bb54403748587fc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetSceneName: S30_RewardRoom
+  rewardKeyType: 2
+  canUse: 1
 --- !u!1 &1886071452
 GameObject:
   m_ObjectHideFlags: 0
