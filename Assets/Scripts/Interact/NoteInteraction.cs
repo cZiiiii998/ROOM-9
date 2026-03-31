@@ -4,15 +4,16 @@ using UnityEngine.UI;
 
 public class NoteInteraction : MonoBehaviour
 {
-    public string noteText;
+    [TextArea(4, 10)]
+    [SerializeField] private string noteText;
 
-    public SpriteRenderer worldNoteSpriteRenderer;
-    public Sprite worldNoteSprite;
+    [SerializeField] private SpriteRenderer worldNoteSpriteRenderer;
+    [SerializeField] private Sprite worldNoteSprite;
 
-    public GameObject notePanel;
-    public TextMeshProUGUI noteContentText;
-    public Image notePanelImage;
-    public Sprite openNoteSprite;
+    [SerializeField] private GameObject notePanel;
+    [SerializeField] private TextMeshProUGUI noteContentText;
+    [SerializeField] private Image notePanelImage;
+    [SerializeField] private Sprite openNoteSprite;
 
     private bool playerInRange;
     private bool isReading;
