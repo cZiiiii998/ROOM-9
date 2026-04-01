@@ -1319,6 +1319,63 @@ MonoBehaviour:
   maxSpawnTime: 1.9
   minSpeed: 3
   maxSpeed: 4.8
+--- !u!1001 &932658670
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2920406827608853137, guid: fddd35fd6b008f14c8ba93a69f1ce218, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.157261
+      objectReference: {fileID: 0}
+    - target: {fileID: 2920406827608853137, guid: fddd35fd6b008f14c8ba93a69f1ce218, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.9067626
+      objectReference: {fileID: 0}
+    - target: {fileID: 2920406827608853137, guid: fddd35fd6b008f14c8ba93a69f1ce218, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2920406827608853137, guid: fddd35fd6b008f14c8ba93a69f1ce218, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2920406827608853137, guid: fddd35fd6b008f14c8ba93a69f1ce218, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2920406827608853137, guid: fddd35fd6b008f14c8ba93a69f1ce218, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2920406827608853137, guid: fddd35fd6b008f14c8ba93a69f1ce218, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2920406827608853137, guid: fddd35fd6b008f14c8ba93a69f1ce218, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2920406827608853137, guid: fddd35fd6b008f14c8ba93a69f1ce218, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2920406827608853137, guid: fddd35fd6b008f14c8ba93a69f1ce218, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082610729280217655, guid: fddd35fd6b008f14c8ba93a69f1ce218, type: 3}
+      propertyPath: m_Name
+      value: EmergencyExit
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fddd35fd6b008f14c8ba93a69f1ce218, type: 3}
 --- !u!1 &1059957770
 GameObject:
   m_ObjectHideFlags: 0
@@ -2589,6 +2646,10 @@ PrefabInstance:
       propertyPath: canUse
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6088489024328940966, guid: 012454d441552ec40af3bb6b41b23836, type: 3}
+      propertyPath: useSavedReturnScene
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6834166756928205837, guid: 012454d441552ec40af3bb6b41b23836, type: 3}
       propertyPath: m_SortingOrder
       value: 3
@@ -2832,3 +2893,4 @@ SceneRoots:
   - {fileID: 785566248}
   - {fileID: 1796540905}
   - {fileID: 378115778}
+  - {fileID: 932658670}

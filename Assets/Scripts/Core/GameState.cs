@@ -18,6 +18,9 @@ public class GameState : MonoBehaviour
 
     public KeyType nextRewardKey = KeyType.None;
 
+    public string returnSceneName;
+    public string returnSpawnPointId;
+
     void Awake()
     {
         if (I != null && I != this)
@@ -48,5 +51,15 @@ public class GameState : MonoBehaviour
     public bool HasAllKeys()
     {
         return keyA && keyB && keyC;
+    }
+
+    public void ResetRun()
+    {
+        keyA = false;
+        keyB = false;
+        keyC = false;
+        nextRewardKey = KeyType.None;
+        returnSceneName = "";
+        returnSpawnPointId = "";
     }
 }

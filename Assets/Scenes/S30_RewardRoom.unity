@@ -1339,6 +1339,10 @@ PrefabInstance:
       propertyPath: canUse
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6088489024328940966, guid: 012454d441552ec40af3bb6b41b23836, type: 3}
+      propertyPath: targetSceneName
+      value: S10_Corridor
+      objectReference: {fileID: 0}
     - target: {fileID: 7879425853821937508, guid: 012454d441552ec40af3bb6b41b23836, type: 3}
       propertyPath: m_Name
       value: Door_BackToCorridor

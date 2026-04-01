@@ -1,21 +1,18 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DoorToScene : MonoBehaviour
+public class RoomExit : MonoBehaviour
 {
-    public string targetSceneName = "S20_Room_01";
-    public bool canUse = false;
-
-    bool playerInside;
+    private bool playerInside;
 
     void Update()
     {
-        if (!canUse) return;
+        if (!playerInside) return;
+        if (!Input.GetKeyDown(KeyCode.E)) return;
+        if (GameState.I == null) return;
+        if (string.IsNullOrEmpty(GameState.I.returnSceneName)) return;
 
-        if (playerInside && Input.GetKeyDown(KeyCode.E))
-        {
-            SceneManager.LoadScene(targetSceneName);
-        }
+        SceneManager.LoadScene(GameState.I.returnSceneName);
     }
 
     void OnTriggerEnter2D(Collider2D other)
