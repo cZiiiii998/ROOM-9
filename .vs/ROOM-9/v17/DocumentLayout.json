@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "E:\\unity\\ROOM-9\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|E:\\unity\\ROOM-9\\assets\\scripts\\core\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|E:\\unity\\ROOM-9\\Assets\\Animations\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|solutionrelative:Assets\\Animations\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|e:\\unity\\room-9\\assets\\scripts\\core\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|e:\\unity\\room-9\\assets\\scripts\\interact\\noteinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|E:\\unity\\ROOM-9\\assets\\scripts\\interact\\noteinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interact\\noteinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -17,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|E:\\unity\\ROOM-9\\assets\\animations\\corridor\\corridorplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|solutionrelative:assets\\animations\\corridor\\corridorplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\ROOM-9\\Assets\\Animations\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Animations\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\ROOM-9\\Assets\\Scripts\\Interact\\DoorToScene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Interact\\DoorToScene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|E:\\unity\\ROOM-9\\assets\\scripts\\rooms\\room8\\goalzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,16 +87,20 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Rooms\\Room02Tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room1\\StoneGateGroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Rooms\\Room1\\StoneGateGroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\ROOM-9\\Assets\\Scripts\\Core\\Room01Controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Core\\Room01Controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\ROOM-9\\Assets\\Scripts\\Interact\\ColorPad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Interact\\ColorPad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room1\\StoneGateGroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Rooms\\Room1\\StoneGateGroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|E:\\unity\\ROOM-9\\Assets\\Scripts\\Interact\\DoorToScene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Interact\\DoorToScene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -113,24 +113,8 @@
           "SelectedChildIndex": 12,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "KeyInventoryUI.cs",
-              "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\UI\\KeyInventoryUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\KeyInventoryUI.cs",
-              "ToolTip": "E:\\unity\\ROOM-9\\Assets\\Scripts\\UI\\KeyInventoryUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\KeyInventoryUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T17:18:41.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "MovingObstacle.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room6\\MovingObstacle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Room6\\MovingObstacle.cs",
@@ -142,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "DarknessFadeIn.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room5\\DarknessFadeIn.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Room5\\DarknessFadeIn.cs",
@@ -154,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "FakeDoorTeleport.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room4\\FakeDoorTeleport.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Room4\\FakeDoorTeleport.cs",
@@ -166,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "RotateInPlace2D.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room3\\RotateInPlace2D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Room3\\RotateInPlace2D.cs",
@@ -178,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "LaserHit.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room3\\LaserHit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Room3\\LaserHit.cs",
@@ -190,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Room03Controller.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room03Controller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Room03Controller.cs",
@@ -201,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "Room02Controller.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room02Controller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Room02Controller.cs",
@@ -213,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "Room02Tile.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room02Tile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Room02Tile.cs",
@@ -225,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "Room01Controller.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Core\\Room01Controller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Room01Controller.cs",
@@ -237,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 22,
               "Title": "ColorPad.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Interact\\ColorPad.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interact\\ColorPad.cs",
@@ -249,20 +233,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GameState.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Core\\GameState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\GameState.cs",
               "ToolTip": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Core\\GameState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Core\\GameState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T01:39:18.299Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "NoteInteraction.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Interact\\NoteInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interact\\NoteInteraction.cs",
@@ -270,12 +254,36 @@
               "RelativeToolTip": "Assets\\Scripts\\Interact\\NoteInteraction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T16:21:22.381Z",
+              "WhenOpened": "2026-03-24T16:21:22.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Animations\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Animations\\PlayerController.cs",
+              "ToolTip": "E:\\unity\\ROOM-9\\Assets\\Animations\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Animations\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T03:07:51.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 3,
+              "Title": "KeyInventoryUI.cs",
+              "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\UI\\KeyInventoryUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\KeyInventoryUI.cs",
+              "ToolTip": "E:\\unity\\ROOM-9\\Assets\\Scripts\\UI\\KeyInventoryUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\KeyInventoryUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T17:18:41.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "StoneGateGroup.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room1\\StoneGateGroup.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Room1\\StoneGateGroup.cs",
@@ -286,19 +294,12 @@
               "WhenOpened": "2026-03-04T02:03:36.95Z"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Animations\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Animations\\PlayerController.cs",
-              "ToolTip": "E:\\unity\\ROOM-9\\Assets\\Animations\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Animations\\PlayerController.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T03:07:51.971Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CorridorPlayer.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Animations\\corridor\\CorridorPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Animations\\corridor\\CorridorPlayer.cs",
@@ -310,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 24,
               "Title": "DoorToScene.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Interact\\DoorToScene.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interact\\DoorToScene.cs",
@@ -321,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "PlayerTeleportLock.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room7\\PlayerTeleportLock.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Room7\\PlayerTeleportLock.cs",
@@ -333,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "GoalZone.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Room8\\GoalZone.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Room8\\GoalZone.cs",
@@ -345,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "RoomGate.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Core\\RoomGate.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\RoomGate.cs",
@@ -357,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "CameraFollow2D.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Core\\CameraFollow2D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\CameraFollow2D.cs",
@@ -369,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "KeyPickup.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Interact\\KeyPickup.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interact\\KeyPickup.cs",
@@ -381,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "ExitDoor.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Interact\\ExitDoor.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interact\\ExitDoor.cs",
@@ -393,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "BootLoader.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Core\\BootLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\BootLoader.cs",
@@ -405,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "PlayerMove2D.cs",
               "DocumentMoniker": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Player\\PlayerMove2D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMove2D.cs",
