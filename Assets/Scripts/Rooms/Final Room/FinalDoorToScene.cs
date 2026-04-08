@@ -7,21 +7,39 @@ public class FinalDoorToScene : MonoBehaviour
     public bool playerInside;
     public bool requireAllKeys = true;
 
+    public AudioSource openSound;
+    public float loadDelay = 0.4f;
+
+    bool isLoading;
+
     void Update()
     {
         if (!playerInside) return;
+        if (isLoading) return;
 
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (CanOpen())
             {
-                SceneManager.LoadScene(targetSceneName);
+                isLoading = true;
+
+                if (openSound != null)
+                {
+                    openSound.Play();
+                }
+
+                Invoke(nameof(LoadScene), loadDelay);
             }
             else
             {
                 Debug.Log("You need all three keys.");
             }
         }
+    }
+
+    void LoadScene()
+    {
+        SceneManager.LoadScene(targetSceneName);
     }
 
     bool CanOpen()

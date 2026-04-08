@@ -10,14 +10,31 @@ public class DoorToScene : MonoBehaviour
     public string returnSceneName;
     public string returnSpawnPointId;
 
+    public AudioSource openSound;
+    public float loadDelay = 0.3f;
+
     bool playerInside;
+    bool isLoading;
 
     void Update()
     {
         if (!canUse) return;
         if (!playerInside) return;
+        if (isLoading) return;
         if (!Input.GetKeyDown(KeyCode.E)) return;
 
+        isLoading = true;
+
+        if (openSound != null)
+        {
+            openSound.Play();
+        }
+
+        Invoke(nameof(LoadDoorScene), loadDelay);
+    }
+
+    void LoadDoorScene()
+    {
         if (GameState.I != null)
         {
             if (!useSavedReturnScene)
