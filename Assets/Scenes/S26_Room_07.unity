@@ -1784,7 +1784,6 @@ GameObject:
   - component: {fileID: 497480452}
   - component: {fileID: 497480451}
   - component: {fileID: 497480450}
-  - component: {fileID: 497480449}
   - component: {fileID: 497480448}
   - component: {fileID: 497480447}
   - component: {fileID: 497480446}
@@ -1841,8 +1840,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.070516095, y: -0.6816183}
-  m_Size: {x: 3.125949, y: 3.2883043}
+  m_Offset: {x: -0.007059112, y: -1.1012144}
+  m_Size: {x: 1.4254508, y: 2.500429}
   m_Direction: 0
 --- !u!50 &497480448
 Rigidbody2D:
@@ -1871,18 +1870,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &497480449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 497480445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44a4ea555ed518546ab5a0ed40f946d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &497480450
 Animator:
   serializedVersion: 5
@@ -1945,12 +1932,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: 21300000, guid: 84fd8a0065cd1af41baf4873cc1dbb81, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 346344a76d7bbcb4b9d25565ab99c77c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 10.24, y: 15.36}
+  m_Size: {x: 3.7, y: 4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1964,13 +1951,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 497480445}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.12, y: -5.77, z: 0}
-  m_LocalScale: {x: 0.31196898, y: 0.30330768, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.0013953195, w: 0.99999905}
+  m_LocalPosition: {x: -0.6334, y: -5.257, z: 0}
+  m_LocalScale: {x: 0.5891774, y: 0.55416703, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.16}
 --- !u!114 &497480453
 MonoBehaviour:
   m_ObjectHideFlags: 0
