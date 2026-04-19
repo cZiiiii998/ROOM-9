@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rooms\\intro\\introcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|e:\\unity\\room-9\\assets\\scripts\\interact\\flickerlight2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|E:\\unity\\ROOM-9\\assets\\scripts\\interact\\flickerlight2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FA2B67F-C7F3-3153-7F41-BDADEAFC7CC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interact\\flickerlight2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -130,8 +130,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -140,14 +144,10 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Intro\\IntroController.cs",
               "ToolTip": "E:\\unity\\ROOM-9\\Assets\\Scripts\\Rooms\\Intro\\IntroController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Rooms\\Intro\\IntroController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAqwKUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T20:07:57.526Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -159,8 +159,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Interact\\FlickerLight2D.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T17:06:24.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T17:06:24.755Z"
             },
             {
               "$type": "Document",
