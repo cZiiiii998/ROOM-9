@@ -368,11 +368,11 @@ MonoBehaviour:
   obstaclePrefab: {fileID: 6459505064339106347, guid: e3433af1ef10f8e4b885473dcabb7ef9, type: 3}
   spawnPoint: {fileID: 37877320}
   direction: 1
-  despawnX: 7
-  minSpawnTime: 0.3
-  maxSpawnTime: 1
-  minSpeed: 3
-  maxSpeed: 6
+  despawnX: 9
+  minSpawnTime: 0.5
+  maxSpawnTime: 1.5
+  minSpeed: 2
+  maxSpeed: 7
 --- !u!4 &151889509
 Transform:
   m_ObjectHideFlags: 0
@@ -1428,12 +1428,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2920406827608853137, guid: fddd35fd6b008f14c8ba93a69f1ce218, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.20673801
+      objectReference: {fileID: 0}
+    - target: {fileID: 2920406827608853137, guid: fddd35fd6b008f14c8ba93a69f1ce218, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.15784916
+      objectReference: {fileID: 0}
+    - target: {fileID: 2920406827608853137, guid: fddd35fd6b008f14c8ba93a69f1ce218, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.157261
+      value: 8.2257
       objectReference: {fileID: 0}
     - target: {fileID: 2920406827608853137, guid: fddd35fd6b008f14c8ba93a69f1ce218, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.9067626
+      value: -4.9838
       objectReference: {fileID: 0}
     - target: {fileID: 2920406827608853137, guid: fddd35fd6b008f14c8ba93a69f1ce218, type: 3}
       propertyPath: m_LocalPosition.z
